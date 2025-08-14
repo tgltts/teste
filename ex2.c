@@ -3,17 +3,18 @@
 int main()
 {
 
-  float a;
+  float raio;
   float area;
   float perimetro;
+  const float PI = 3.1415926;
 
   printf("Digite o valor do raio :");
-  scanf("%f", &a);
+  scanf("%f", &raio);
 
-  area =  3.1415926 * (a*a);
-  perimetro = 2 *  3.1415926 * a; 
+  area =  PI * (raio*raio);
+  perimetro = 2 *  PI * raio; 
 
-  printf("O valor da área = %f e do perímetro = %f", area , perimetro);
+  printf("O valor da área = %f e do perímetro = %f \n", area , perimetro);
 
   return 0;
 }
