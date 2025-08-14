@@ -8,7 +8,7 @@ int main()
   float perimetro;
 
   printf("Digite o valor do raio :");
-  sacanf("%f", &a);
+  scanf("%f", &a);
 
   area =  3.1415926 * (a*a);
   perimetro = 2 *  3.1415926 * a; 
